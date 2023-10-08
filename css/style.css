@@ -1,0 +1,187 @@
+@font-face {
+    font-family: poppin-light;
+    src: url(../Assets/Fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: poppin-bold;
+    src: url(../Assets/Fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: poppin-ex-bold;
+    src: url(../Assets/Fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(../Assets/Fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(../Assets/Fonts/Roboto-Bold.ttf);
+}
+.menu-items{
+    font-family: roboto-bold;
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+}
+.menu-items:hover{
+    color: #DE4F6D;
+    border-bottom: 2px black solid;
+    padding: auto 0px;
+}
+.new-menu-button{
+    background-color: #FDCD29;
+    padding: 12px 30px;
+    font-family: roboto-bold;
+    font-size: 16px;
+    color: black;
+    border: 0px;
+    border-radius: 10px;
+}
+.new{
+    background-color: #DE4F6D;
+    color: white;
+    font-size: 16px;
+}
+.main-inner-box h1.baner-heading {
+    color: #FFFFFF;
+    font-family: poppin-bold;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+.main-inner-box p.main-para {
+    font-family: roboto;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.main-baner-button button.baner-button {
+    background-color: #FDCD29;
+    border: 2px solid #FDCD29;
+    border-radius: 10px;
+    padding: 10px 35px;
+    font-family: 'roboto-bold';
+    font-weight: 800;
+}
+.main-baner-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner-image-main-section {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.main-baner-wrapper {
+    width: 85%;
+    margin: auto;
+}
+.main-inner-box .baner-para {
+    width: 90%;
+    margin: auto;
+}
+.content-box{
+    background-image: url(../Assets/Images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin: 0px;
+    height: 410px;
+}
+.content-box-1{
+    background-image: url(../Assets/Images/bg1\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 90px 60px;
+    border-radius: 20px;
+    margin: 0px;
+    height: 410px;
+}
+.content-box-2{
+    background-image: url(../Assets/Images/bg1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin: 0px;
+    height: 410px;
+}
+h2.content-box-heading {
+    font-family: 'poppin-light';
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+p.content-box-para {
+    font-family: 'roboto';
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 800;
+}
+.section-for-margin{
+    margin: 80px 0px;
+}
+h1.content-wrapper-heading {
+    color: #000000;
+    font-family: poppin-bold;
+    font-size: 40px;
+    font-weight: 700;
+}
+.heading-center-align{
+    text-align: center;
+}
+.heading-left-align{
+    text-align: left;
+}
+p.content-para {
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    color: black;
+}
+.new-content-button{
+    justify-content: left;
+}
+.for-border{
+        border-left: 2px solid #FDCD29;
+        padding-left: 20px;
+}
+.color-white{
+    color: white !important;
+}
+.list-one li{
+    list-style-image: url(../Assets/Images/Group\ 202.svg);
+    font-size: 20px;
+    font-family: roboto-bold;
+    color: white;
+    margin: 10px 0px;
+}
+.bg-white-button{
+    background-color: #FFFFFF !important;
+    border:2px white solid !important;
+}
+.h-show{
+    opacity: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 2s;
+    animation-timing-function:ease-in-out;
+}
+.h-show:hover{
+        opacity: 1;
+        cursor:progress;
+}
